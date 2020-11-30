@@ -1,9 +1,10 @@
 # Table of contents
 
-* [Initial page](README.md)
-* [Test](test.md)
-
-## testi
-
-* [Untitled](testi/untitled.md)
+* [Virtualisation Types](README.md)
+* [RDP & SSH](test.md)
+* [Ports & Protocoles](ports-and-protocoles.md)
+* [SWAP](swap.md)
+* [Linus Torvald](linus-torvald.md)
+* [Bibliographie](bibliographie.md)
+* [Glossaire](glossaire.md)
 
