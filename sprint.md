@@ -37,7 +37,7 @@
     * Un système d'exploitation invité s'exécutera donc en troisième niveau au-dessus du matériel. Les systèmes d'exploitation invités n'ayant pas conscience d'être virtualisés, ils n'ont pas besoin d'être adaptés.
     * **Exemple : VirtualBox d'Oracle, VMware Workstation, VMware Fusion**
 
-![img 1 différences entre type I et II](.\Capture.png)
+![img 1 différences entre type I et II](.\imgs\Capture.png)
 
 # RDP vs SSH :
 
@@ -71,7 +71,7 @@ Protocole IPsec, défini par l'IETF comme un cadre de standards ouverts pour ass
 * *IETF : (Internet Engineering Task Force) élabore et promeut des standards Internet, en particulier les standards qui composent la suite de protocoles Internet. L'IETF produit la plupart des nouveaux standards d'Internet.*
 
 **Schéma :**
-![Protocole SSH](.\Capture4.png)
+![Protocole SSH](.\imgs\Capture4.png)
 # Le Swap 
 Le Swap est un espace sur un disque qui est utilisé lorsque la quantité de mémoire RAM physique est pleine. Lorsqu'un système Linux manque de RAM, les pages inactives sont déplacées de la RAM vers l'espace de swap.
 
@@ -91,7 +91,7 @@ Allouez un espace d'échange de 1,5× à 2× la taille de votre RAM.
 
 **Comment tester un swap ?**
 
-![img 2 vérifier l'état du swap](.\Capture2.png)
+![img 2 vérifier l'état du swap](.\imgs\Capture2.png)
 
 # Type d’architecture :
 
@@ -99,7 +99,7 @@ Identifier les sources à obtenir pour installer Debian Duster :
 
 [Versions Debian (download)](https://www.debian.org/releases/buster/debian-installer/)
 
-![version debian](.\Capture3.png)
+![version debian](.\imgs\Capture3.png)
 
 # Linus Torvals :
 
