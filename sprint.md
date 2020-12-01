@@ -37,8 +37,7 @@
     * Un système d'exploitation invité s'exécutera donc en troisième niveau au-dessus du matériel. Les systèmes d'exploitation invités n'ayant pas conscience d'être virtualisés, ils n'ont pas besoin d'être adaptés.
     * **Exemple : VirtualBox d'Oracle, VMware Workstation, VMware Fusion**
 
-![img 1 différences entre type I et II](imgs\Capture.png)
-
+![img 1 différences entre type I et II](https://github.com/besSejrani/MA-07/blob/main/imgs/Capture.PNG "test")
 # RDP vs SSH :
 
 **Architecture client / serveur :** architecture logicielle dans laquelle les programmes d'application, dits clients, font appel, dans le cadre d'un réseau, à des services génériques distants fournis par des ordinateurs appelés serveurs.
