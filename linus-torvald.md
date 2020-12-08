@@ -8,8 +8,7 @@
 
 **Why doesn't Linus Torvalds use Ubuntu or Debian ?**
 
-**\(Source :** [**https://www.youtube.com/watch?v=qHGTs1NSB1s**](https://www.youtube.com/watch?v=qHGTs1NSB1s)**\)**  
-
+**\(Source :** [**https://www.youtube.com/watch?v=qHGTs1NSB1s**](https://www.youtube.com/watch?v=qHGTs1NSB1s)**\)**
 
 {% page-ref page="linus-torvald.md" %}
 
