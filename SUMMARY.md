@@ -4,6 +4,6 @@
 * [Virtualisation Types](virtualisation-types.md)
 * [RDP & SSH](rdp-and-ssh.md)
 * [Ports & Protocoles](ports-and-protocoles.md)
-* [Swap](swap.md)
+* [Linux Swap](swap.md)
 * [Linus Torvald](linus-torvald.md)
 
