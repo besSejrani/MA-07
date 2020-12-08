@@ -101,7 +101,7 @@ Identifier les sources à obtenir pour installer Debian Duster :
 
 ![version debian](https://github.com/besSejrani/MA-07/blob/main/imgs/Capture3.png?raw=true)
 
-# Linus Torvals :
+# Linus Torvald :
 
 >Il est connu pour avoir créé en 1991 (à 21 ans) le noyau Linux dont il continue de diriger le développement. Il en est considéré comme le « dictateur bienveillant à vie » (Benevolent Dictator for Life).
 
