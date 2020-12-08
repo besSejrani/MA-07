@@ -24,5 +24,5 @@ Un système d'exploitation invité s'exécute en troisième niveau au-dessus du 
 | :--- |
 
 
-![](.gitbook/assets/capture.png)
+![](../.gitbook/assets/capture.png)
 

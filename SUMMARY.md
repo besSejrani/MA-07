@@ -1,13 +1,16 @@
 # Table of contents
 
 * [Table des matières](README.md)
-* [Virtualisation Types](virtualisation-types.md)
-* [RDP & SSH](rdp-and-ssh.md)
-* [Ports & Protocoles](ports-and-protocoles.md)
-* [Linux Swap](swap.md)
-* [Linus Torvald](linus-torvald.md)
 
-## testa
+## Sprint 1
 
-* [Testaaa](testa/untitled.md)
+* [Virtualisation Types](sprint-1/virtualisation-types.md)
+* [RDP & SSH](sprint-1/rdp-and-ssh.md)
+* [Ports & Protocoles](sprint-1/ports-and-protocoles.md)
+* [Linux Swap](sprint-1/swap.md)
+* [Linus Torvald](sprint-1/linus-torvald.md)
+
+## Sprint 2
+
+* [test](sprint-2/test.md)
 
