@@ -1,12 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-
-## SSH
-
-* [Untitled](ssh/untitled.md)
-
----
-
+* [Virtualisation Types](virtualisation-types.md)
+* [RDP & SSH](rdp-and-ssh.md)
 * [Linus Torvald](linus-torvald.md)
 
