@@ -24,5 +24,5 @@ Les IHM permettent principalement d’afficher des informations de façon visuel
 
 ### **SSH & IHM**
 
-**Il est possible d’utiliser le protocole SSH avec une interface graphique si l’on autorise le X11 Forwarding sur le serveur.**
+Il est possible d’utiliser le protocole SSH avec une interface graphique si l’on autorise le X11 Forwarding sur le serveur.
 
