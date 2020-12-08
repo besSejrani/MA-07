@@ -37,7 +37,7 @@
     * Un système d'exploitation invité s'exécutera donc en troisième niveau au-dessus du matériel. Les systèmes d'exploitation invités n'ayant pas conscience d'être virtualisés, ils n'ont pas besoin d'être adaptés.
     * **Exemple : VirtualBox d'Oracle, VMware Workstation, VMware Fusion**
 
-![img 1 différences entre type I et II](imgs\Capture.png)
+![img 1 différences entre type I et II](imgs/Capture.png)
 
 # RDP vs SSH :
 
