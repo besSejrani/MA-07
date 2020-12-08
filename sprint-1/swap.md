@@ -25,13 +25,15 @@ Allouez un espace d'échange de 1× à 1,5× la taille de votre RAM ;
 L’ ordinateur dispose de moins de 1 Go de RAM  
 Allouez un espace d'échange de 1,5× à 2× la taille de votre RAM.
 
-## **Ajout Partition**
+## **Partition**
+
+### **Ajout Partition**
 
 ```text
 swapon
 ```
 
-## **Ajout Fichier**
+### **Ajout Fichier**
 
 Création d'un fichier swap
 
@@ -39,19 +41,19 @@ Création d'un fichier swap
 sudo fallocate -l 1G /swapfile
 ```
 
-## **Permissions**
+### **Permissions**
 
 ```text
 sudo chmod 600 /swapfile
 ```
 
-## **Formater**
+### **Formater**
 
 ```text
 sudo mkswap /swapfile
 ```
 
-## **Enable swap**
+### **Enable swap**
 
 ```text
 sudo swapon /swapfile
@@ -63,13 +65,13 @@ If you want the changes to be permanent, you need to edit the /etc/fstab file an
 /swapfile swap swap defaults 0 0
 ```
 
-## **Status swap**
+### **Status swap**
 
 ```text
 sudo free -h
 ```
 
-## **Suppression Fichier**
+### **Suppression Fichier**
 
 ```text
 sudo swapoff -v /swapfile
@@ -77,7 +79,7 @@ sudo swapoff -v /swapfile
 sudo rm /swapfile
 ```
 
-## **Ajustement valeur**
+### **Ajustement valeur**
 
 ```text
 cat /proc/sys/vm/swappiness
