@@ -45,62 +45,58 @@ sudo fallocate -l 1G /swapfile
 sudo chmod 600 /swapfile
 ```
 
-## **Formater fichier swap**
+## **Formater**
 
-| **sudo mkswap /swapfile** |
-| :--- |
+```text
+sudo mkswap /swapfile
+```
 
+## **Enable swap**
 
-**Enable the swap**
+```text
+sudo swapon /swapfile
+```
 
-| **sudo swapon /swapfile** |
-| :--- |
+If you want the changes to be permanent, you need to edit the /etc/fstab file and add the following.
 
+```text
+/swapfile swap swap defaults 0 0
+```
 
-**If you want the changes to be permanent, you need to edit the /etc/fstab file and add the following.**
+## **Status swap**
 
-| **/swapfile swap swap defaults 0 0** |
-| :--- |
+```text
+sudo free -h
+```
 
+## **Suppression Fichier**
 
-**Check the status of the swapfile**
+```text
+sudo swapoff -v /swapfile
 
-| **sudo free -h** |
-| :--- |
+sudo rm /swapfile
+```
 
+## **Ajustement valeur**
 
-### **Suppression Fichier**
+```text
+cat /proc/sys/vm/swappiness
+```
 
-| **sudo swapoff -v /swapfile** |
-| :--- |
+Devault Value
 
+```text
+sudo nano /etc/sysctl.conf
+```
 
-| **sudo rm /swapfile** |
-| :--- |
+Recommanded value
 
+```text
+vm.swappiness=10
+```
 
-### **Ajustement valeur**
+## **Architecture**
 
-**verify the swappiness value**
-
-| **cat /proc/sys/vm/swappiness** |
-| :--- |
-
-
-**Modify the default value**
-
-| **sudo nano /etc/sysctl.conf** |
-| :--- |
-
-
-**And add the following \(10 is the most commonly recommended value\)**
-
-| **vm.swappiness=10** |
-| :--- |
-
-
-### **Architecture**
-
-**Debian Duster est construit en architecture amd64.**  
-
+Debian Duster est construit en architecture amd64.  
+****
 
