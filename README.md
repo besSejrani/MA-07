@@ -71,7 +71,7 @@ Protocole IPsec, défini par l'IETF comme un cadre de standards ouverts pour ass
 * *IETF : (Internet Engineering Task Force) élabore et promeut des standards Internet, en particulier les standards qui composent la suite de protocoles Internet. L'IETF produit la plupart des nouveaux standards d'Internet.*
 
 **Schéma :**
-![Protocole SSH](https://github.com/besSejrani/MA-07/blob/main/imgs/Capture4.png?raw=true)
+![Protocole SSH](https://github.com/besSejrani/MA-07/blob/main/imgs/Capture4.PNG?raw=true)
 # Le Swap 
 Le Swap est un espace sur un disque qui est utilisé lorsque la quantité de mémoire RAM physique est pleine. Lorsqu'un système Linux manque de RAM, les pages inactives sont déplacées de la RAM vers l'espace de swap.
 
