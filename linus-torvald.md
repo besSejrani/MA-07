@@ -6,7 +6,7 @@
 
 ## **Influence**
 
-**Why doesn't Linus Torvalds use Ubuntu or Debian ?**
+**Why doesn't Linus Torvalds use Ubuntu or Debian ?** 
 
 {% hint style="info" %}
  ****[**https://www.youtube.com/watch?v=qHGTs1NSB1s**](https://www.youtube.com/watch?v=qHGTs1NSB1s)\*\*\*\*
