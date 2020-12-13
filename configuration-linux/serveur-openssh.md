@@ -15,7 +15,7 @@ Openssh-server tourne comme service de fond sous le nom de sshd, afin de le gara
 
 ```text
 sudo systemctl status sshd
-sudo systemctl enable ssh
+sudo systemctl enable sshd
 ```
 
 ### Connection

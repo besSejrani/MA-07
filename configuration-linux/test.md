@@ -54,14 +54,6 @@ getent passwd
 cat /etc/passwd
 ```
 
-## Pratique
-
-Pratique permettant de prouver la création d'utilisateur.
-
-```text
-
-```
-
 ## Sources
 
 |  |  |
