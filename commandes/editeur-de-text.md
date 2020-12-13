@@ -1,4 +1,4 @@
-# Editeur De Text
+# Editeur De Texte
 
 ## Choix
 
