@@ -13,6 +13,7 @@
 ## Configuration Linux
 
 * [Utilisateurs](configuration-linux/test.md)
+* [Serveur OpenSSH](configuration-linux/serveur-openssh.md)
 
 ## Sprint 3
 
