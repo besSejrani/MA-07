@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install openssh-server
 ```
 
-## Activation du service
+### Activation du service
 
 Openssh-server tourne comme service de fond sous le nom de sshd, afin de le garantir à chaque redémarrage, il faut préalablement activer le service.
 
@@ -18,7 +18,9 @@ sudo systemctl status sshd
 sudo systemctl enable ssh
 ```
 
+Connection
 
+## Pratique
 
 ## Sources
 
