@@ -14,6 +14,8 @@ deluser mysql
 
 ## Renommer un utilisateur
 
+Pour pouvoir renommer un utilisateur, il faut au préalable que la session du compte sois fermé.
+
 ```text
 usermod -l nouveauNom ancienNom
 ```
