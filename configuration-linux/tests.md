@@ -2,6 +2,10 @@
 
 ## Accès en SSH
 
+```text
+ssh utilisateur@ip
+```
+
 ## Compte admin vs root
 
 ## Accès en root impossible via SSH
