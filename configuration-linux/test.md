@@ -1,24 +1,30 @@
 # Utilisateurs
 
-## Création Utilisateur
+## Création  d'un utilisateur
 
 ```text
 adduser mysql
 ```
 
-## Suppression Utilisateur
+## Suppression d'un utilisateur
 
 ```text
 deluser mysql
 ```
 
-## Renommer Utilisateur
+## Renommer un utilisateur
 
 ```text
 usermod -l nouveauNom ancienNom
 ```
 
-## Ajout Utilisateur Groupe
+## Définir le mot de passe utilisateur
+
+```text
+passwd 123456789
+```
+
+## Ajouter un utilisateur à un groupe
 
 ```text
 sudo usermod -aG nomGroup utilisateur
