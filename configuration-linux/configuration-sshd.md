@@ -30,11 +30,11 @@ ssh-keygen -t rsa -b 4096
 ssh-copy-id -i chemin/cle/publique utilisateur@ip
 ```
 
-## Paramétrer le serveur Openssh
+## Options SSHD
 
 ### Fichier de configuration
 
-Le fichier de configuration se trouve par défaut au chemin suivant.
+Le fichier de configuration du serveur OpenSSH se trouve par défaut au chemin suivant.
 
 ```text
 cat /etc/ssh/sshd_config
