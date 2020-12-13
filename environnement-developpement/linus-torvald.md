@@ -1,5 +1,7 @@
 # Linus Torvald
 
+## Personnage
+
 Il est connu pour avoir créé en 1991 \(à 21 ans\) le noyau Linux dont il continue de diriger le développement. Il en est considéré comme le « dictateur bienveillant à vie » \(Benevolent Dictator for Life\).
 
 Il a également créé le logiciel de gestion de versions décentralisée Git.
