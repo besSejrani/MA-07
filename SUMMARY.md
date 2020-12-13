@@ -12,7 +12,7 @@
 
 ## Commandes
 
-* [Bases](commandes/bases.md)
+* [Dossier & Fichiers](commandes/bases.md)
 
 ## Configuration Linux
 
