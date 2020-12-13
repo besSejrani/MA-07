@@ -46,7 +46,7 @@ useradd -G groupe utilisateur
 gpasswd -d utilisateur groupe
 ```
 
-### Litser tous les utilisateurs
+### Lister tous les utilisateurs
 
 ```text
 getent passwd
