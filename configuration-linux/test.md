@@ -5,13 +5,13 @@
 ### Création  d'un utilisateur
 
 ```text
-adduser mysql
+adduser utilisateur
 ```
 
 ### Suppression d'un utilisateur
 
 ```text
-deluser mysql
+deluser utilisateur
 ```
 
 ### Renommer un utilisateur
@@ -38,6 +38,12 @@ sudo usermod -aG groupe utilisateur
 
 ```text
 useradd -G groupe utilisateur
+```
+
+### Ajouter un utiisateur au groupe administrateur
+
+```text
+useradd -G sudo utilisateur
 ```
 
 ### Supprimer un utilisateur d'un groupe
