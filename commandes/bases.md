@@ -90,5 +90,25 @@ ls -la
 ls | grep "index.html"
 ```
 
+### Lire le contenu d'un fichier
+
+```text
+cat index.txt
+cat index.js
+cat index.html
+```
+
+### Lire le début du contenu d'un fichier
+
+```text
+header index.txt
+```
+
+### Lire la fin du contenu d'un fichier
+
+```text
+tail index.txt
+```
+
 
 
