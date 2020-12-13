@@ -64,5 +64,5 @@ cat /etc/passwd
 
 |  |  |
 | :--- | :--- |
-|  |  |
+| Add a new user account with admin access on Linux | [NIxCraft](https://www.cyberciti.biz/faq/add-new-user-account-with-admin-access-on-linux/) |
 
