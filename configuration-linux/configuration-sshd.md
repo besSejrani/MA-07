@@ -17,6 +17,8 @@ cat /etc/ssh/sshd_config
 nano /etc/ssh/sshd_config
 ```
 
+Voici les options à modifier pour parvenir à ces modifications.
+
 ```text
 PermitRootLogin: no
 PubkeyAuthentication: yes 
