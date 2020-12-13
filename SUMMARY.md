@@ -2,13 +2,13 @@
 
 * [Table des matières](README.md)
 
-## Sprint 1
+## Environnement développement
 
-* [Virtualisation Types](sprint-1/virtualisation-types.md)
-* [RDP & SSH](sprint-1/rdp-and-ssh.md)
-* [Ports & Protocoles](sprint-1/ports-and-protocoles.md)
-* [Linux Swap](sprint-1/swap.md)
-* [Linus Torvald](sprint-1/linus-torvald.md)
+* [Virtualisation Types](environnement-developpement/virtualisation-types.md)
+* [RDP & SSH](environnement-developpement/rdp-and-ssh.md)
+* [Ports & Protocoles](environnement-developpement/ports-and-protocoles.md)
+* [Linux Swap](environnement-developpement/swap.md)
+* [Linus Torvald](environnement-developpement/linus-torvald.md)
 
 ## Configuration Linux
 
