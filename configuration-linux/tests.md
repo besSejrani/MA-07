@@ -10,3 +10,13 @@
 
 ## Configuration sudo
 
+```text
+sudo adduser foo sudo
+```
+
+## Sources
+
+| Titre | Lien |
+| :--- | :--- |
+| Sudo | [https://wiki.debian.org/sudo](https://wiki.debian.org/sudo) |
+
