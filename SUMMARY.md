@@ -13,6 +13,7 @@
 ## Commandes
 
 * [Dossier & Fichiers](commandes/bases.md)
+* [Editeur De Text](commandes/editeur-de-text.md)
 
 ## Configuration Linux
 
