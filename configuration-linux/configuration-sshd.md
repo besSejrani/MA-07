@@ -1,4 +1,4 @@
-# Configuration SSHD
+# Configuration Fichier SSHD
 
 ## Sécurité
 

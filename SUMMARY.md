@@ -19,6 +19,6 @@
 
 * [Utilisateurs](configuration-linux/test.md)
 * [Serveur OpenSSH](configuration-linux/serveur-openssh.md)
-* [Configuration SSHD](configuration-linux/configuration-sshd.md)
+* [Configuration Fichier SSHD](configuration-linux/configuration-sshd.md)
 * [Tests](configuration-linux/tests.md)
 
