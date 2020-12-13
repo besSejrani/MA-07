@@ -31,7 +31,7 @@ passwd 123456789
 ### Ajouter un utilisateur existant à un groupe
 
 ```text
-sudo usermod -aG nomGroup utilisateur
+sudo usermod -aG groupe utilisateur
 ```
 
 ### Ajouter un nouvel utilisateur à un groupe
