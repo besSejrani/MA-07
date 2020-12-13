@@ -1,18 +1,20 @@
 # Utilisateurs
 
-## Création  d'un utilisateur
+## Théorie
+
+### Création  d'un utilisateur
 
 ```text
 adduser mysql
 ```
 
-## Suppression d'un utilisateur
+### Suppression d'un utilisateur
 
 ```text
 deluser mysql
 ```
 
-## Renommer un utilisateur
+### Renommer un utilisateur
 
 Pour pouvoir renommer un utilisateur, il faut au préalable que la session du compte sois fermée.
 
@@ -20,35 +22,49 @@ Pour pouvoir renommer un utilisateur, il faut au préalable que la session du co
 usermod -l nouveauNom ancienNom
 ```
 
-## Définir le mot de passe utilisateur
+### Définir le mot de passe utilisateur
 
 ```text
 passwd 123456789
 ```
 
-## Ajouter un utilisateur existant à un groupe
+### Ajouter un utilisateur existant à un groupe
 
 ```text
 sudo usermod -aG nomGroup utilisateur
 ```
 
-## Ajouter un nouvel utilisateur à un groupe
+### Ajouter un nouvel utilisateur à un groupe
 
 ```text
 useradd -G groupe utilisateur
 ```
 
-## Supprimer un utilisateur d'un groupe
+### Supprimer un utilisateur d'un groupe
 
 ```text
 gpasswd -d utilisateur groupe
 ```
 
-## Litser tous les utilisateurs
+### Litser tous les utilisateurs
 
 ```text
 getent passwd
 
 cat /etc/passwd
 ```
+
+## Pratique
+
+Pratique permettant de prouver la création d'utilisateur.
+
+```text
+
+```
+
+## Sources
+
+|  |  |
+| :--- | :--- |
+|  |  |
 
