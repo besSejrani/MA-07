@@ -34,5 +34,5 @@ sudo adduser foo sudo
 | Titre | Lien |
 | :--- | :--- |
 | Sudo | [https://wiki.debian.org/sudo](https://wiki.debian.org/sudo) |
-| Diagramme | [Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hostinger.com%2Ftutorials%2Fwp-content%2Fuploads%2Fsites%2F2%2F2017%2F07%2Fssh-client-and-server.jpg&f=1&nofb=1) |
+| Diagramme | [Image Hostinger](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hostinger.com%2Ftutorials%2Fwp-content%2Fuploads%2Fsites%2F2%2F2017%2F07%2Fssh-client-and-server.jpg&f=1&nofb=1) |
 
