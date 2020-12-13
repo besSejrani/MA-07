@@ -10,6 +10,10 @@
 * [Linux Swap](environnement-developpement/swap.md)
 * [Linus Torvald](environnement-developpement/linus-torvald.md)
 
+## Commandes
+
+* [Bases](commandes/bases.md)
+
 ## Configuration Linux
 
 * [Utilisateurs](configuration-linux/test.md)
