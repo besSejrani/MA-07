@@ -14,6 +14,7 @@
 
 * [Utilisateurs](configuration-linux/test.md)
 * [Serveur OpenSSH](configuration-linux/serveur-openssh.md)
+* [Tests](configuration-linux/tests.md)
 
 ## Sprint 3
 
