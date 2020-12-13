@@ -10,9 +10,9 @@
 * [Linux Swap](sprint-1/swap.md)
 * [Linus Torvald](sprint-1/linus-torvald.md)
 
-## Sprint 2
+## Configuration Linux
 
-* [test](sprint-2/test.md)
+* [Création utilisateurs](configuration-linux/test.md)
 
 ## Sprint 3
 
