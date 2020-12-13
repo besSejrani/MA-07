@@ -12,7 +12,7 @@
 
 ## Configuration Linux
 
-* [Création utilisateurs](configuration-linux/test.md)
+* [Utilisateurs](configuration-linux/test.md)
 
 ## Sprint 3
 
