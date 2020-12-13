@@ -18,9 +18,13 @@ sudo systemctl status sshd
 sudo systemctl enable ssh
 ```
 
-Connection
+### Connection
 
-## Pratique
+Une fois que le serveur SSH est installé, via le client, on peut effectuer la commander suivante pour se connecter. Rappel, l'utilisateur figure parmis les utilisateurs Linux, l'adresse ip est celle de la machine.
+
+```text
+ssh utilisateur@ip
+```
 
 ## Sources
 
