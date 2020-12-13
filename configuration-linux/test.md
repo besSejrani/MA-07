@@ -1,6 +1,6 @@
 # Utilisateurs
 
-## Administration Utilisateurs & Groupes
+## Administration Utilisateurs
 
 ### Création  d'un utilisateur
 
@@ -53,6 +53,8 @@ getent passwd
 
 cat /etc/passwd
 ```
+
+## Administration Groupes
 
 ## Sources
 
