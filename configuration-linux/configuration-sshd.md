@@ -8,16 +8,26 @@ Idéalement, on souhaiterait désactiver la connection au compte Root en SSH, d�
 
 ## Clé Publique & Privée
 
-### Générer une paire de clé privée & publique
+### Informations
 
 En informatique, le meilleur moyen pour encrypter les informations durant un transfert données depuis un ordinateur à un autre se fait à l'aide d'une clé privée et d'une clé publique.
 
- Chaque ordinateur génère une paire et n'envoie à l'autre que la clé publique. La clé privée peut ensuite, à l'aide de la clé publique reçue, décypter les informations.
+ Chaque ordinateur génère une paire et n'envoie à l'autre que la clé publique. La clé privée peut ensuite, à l'aide de la clé publique reçue, décrypter les informations.
 
-Idéalement, la paire est généré depuis le client, puis la clé privée est ensuite envoyé au serveur. Il est recommandé de garder la paire en sécurité, probablement sur une clé USB.
+Idéalement, la paire est généré depuis le client, puis la clé publique est ensuite envoyé au serveur. Il est recommandé de garder la clé privée en sécurité, probablement sur une clé USB.
+
+### Générer une paire de clé privée & publique
+
+Par défaut, la paire sera créé dans un dossier caché, nommé .ssh, dans le dossier de l'utilisateur.
 
 ```text
 ssh-keygen -t rsa -b 4096
+```
+
+### Copier & envoyer la clé publique
+
+```text
+ssh-copy-id -i chemin/cle/publique utilisateur@ip
 ```
 
 ### Fichier de configuration
