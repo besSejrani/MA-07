@@ -17,11 +17,3 @@
 * [Configuration SSHD](configuration-linux/configuration-sshd.md)
 * [Tests](configuration-linux/tests.md)
 
-## Sprint 3
-
-* [test](sprint-3/test.md)
-
-## Sprint 4
-
-* [test](sprint-4/test.md)
-
