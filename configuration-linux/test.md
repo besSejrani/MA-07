@@ -1,6 +1,6 @@
 # Utilisateurs
 
-## Théorie
+## Administration Utilisateurs & Groupes
 
 ### Création  d'un utilisateur
 
@@ -25,7 +25,7 @@ usermod -l nouveauNom ancienNom
 ### Définir le mot de passe utilisateur
 
 ```text
-passwd 123456789
+passwd motDePasse
 ```
 
 ### Ajouter un utilisateur existant à un groupe
