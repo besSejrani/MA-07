@@ -8,6 +8,8 @@ ssh utilisateur@ip
 
 ## Compte admin vs root
 
+Le compte admin est limité aux autorisations qu'on lui donne, alors que root est Dieu, il peut tout faire
+
 ## Accès en root impossible via SSH
 
 ```text
