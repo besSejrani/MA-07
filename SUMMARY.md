@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Table of contents](summary.md)
+* [Table des matières](summary.md)
 * [Environnement](environnement/README.md)
   * [Linus Torvald](environnement/linus-torvald.md)
   * [Ports & Protocoles](environnement/ports-and-protocoles.md)
