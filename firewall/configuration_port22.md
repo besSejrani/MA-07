@@ -14,9 +14,9 @@ Mais pour sa facilité de mise en fonction, nous avons opté d'utiliser l'outil 
 - Il faudra avant l'installer
 - Activer ses services
 
->'# aptitude installer nftables
+>aptitude installer nftables
 
->'# systemctl enable nftables.service
+>systemctl enable nftables.service
 
 ## INBOUND - Seul le port 22 est autorisé
 
