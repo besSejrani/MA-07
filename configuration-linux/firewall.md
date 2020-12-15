@@ -85,4 +85,5 @@ La famille inet indique que la table sera traversée par les pacquets IPv4 et IP
 | Définition Pare feu  | [pare-feu](%20https://opensource.com/article/18/9/linux-iptables-firewalld) |
 | Nftables | [Nftables](https://wiki.nftables.org/wiki-nftables/index.php/Quick_reference-nftables_in_10_minutes) |
 | Rules | [Rules](https://wiki.archlinux.org/index.php/nftables) |
+| Diagramme | [Image](https://camo.githubusercontent.com/9aa7c68aa9b3be66fa6708e486b84e2a5ea6f1a04d087317b8742abea58c11bc/68747470733a2f2f6f70656e736f757263652e636f6d2f73697465732f64656661756c742f66696c65732f75706c6f6164732f69707461626c6573312e6a7067) |
 
