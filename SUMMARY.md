@@ -16,6 +16,6 @@
   * [Groupes](configuration-linux/groupes.md)
   * [Serveur OpenSSH](configuration-linux/serveur-openssh.md)
   * [Configuration Fichier SSHD](configuration-linux/configuration-sshd.md)
+  * [Firewall](configuration-linux/firewall.md)
   * [Tests](configuration-linux/tests.md)
-* [Firewall](firewall.md)
 
