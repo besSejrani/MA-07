@@ -18,4 +18,5 @@
   * [Configuration Fichier SSHD](configuration-linux/configuration-sshd.md)
   * [Firewall](configuration-linux/firewall.md)
   * [Protocole Tests](configuration-linux/tests.md)
+* [Protocole Tests Sprint 3](protocole-tests-sprint-3.md)
 
