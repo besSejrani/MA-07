@@ -39,3 +39,11 @@ mv test ~/Desktop
 
 ## Théorie
 
+### Obtenir de l'aide sur les commandes ssh
+
+```text
+ssh --help
+```
+
+### Quel est le développeur qui a dévelopé "grep" ?
+
