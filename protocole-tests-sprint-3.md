@@ -47,3 +47,11 @@ ssh --help
 
 ### Quel est le développeur qui a dévelopé "grep" ?
 
+Le développeur ayant inventé la ligne de commande grep pour les expressions régulières n'est autre que Ken Thompson. Il est connu notamment pour avoir créé le langage B et co-dirigé la création du langage Golang.
+
+## Sources
+
+| Titre | Lien |
+| :--- | :--- |
+| Ken Thompson | [Wikipedia](https://en.wikipedia.org/wiki/Ken_Thompson) |
+
