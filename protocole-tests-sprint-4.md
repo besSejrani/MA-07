@@ -12,10 +12,12 @@
 #!/bin/bash
 
 function listArguments(){
-    for i in $@; do echo $i done;
+    for i in $@; do
+        echo $i
+    done;
 }
 
-argument $@
+listArguments $@
 
 ./listArguments.sh hello world cpnv
 ```
