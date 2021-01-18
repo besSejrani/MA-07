@@ -2,10 +2,6 @@
 
 ## Théorie
 
-## Partage Réseau
-
-## Moteur de base de données
-
 ### Scripting sous Linux
 
 ```text
@@ -44,5 +40,15 @@ tar -xvf new.tar
 tar -C ~/Desktop -xvf new.tar
 ```
 
+## Partage Réseau
+
+## Moteur de base de données
+
 ## Environnement
+
+## Sources
+
+| Titre | Lien |
+| :--- | :--- |
+| Create a Public Samba Share on Ubuntu | [Lien](https://websiteforstudents.com/create-public-samba-share-ubuntu-17-04-17-10/) |
 
