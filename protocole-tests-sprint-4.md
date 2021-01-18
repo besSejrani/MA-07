@@ -140,9 +140,22 @@ sudo systemctl restart smbd
 
 ## Moteur de base de données
 
+### Bonnes pratiques respectées
 
+### Accès depuis le serveur de base de données \(en local\)
+
+### Accès uniquement pour un client \(voir schéma\)
 
 ## Environnement
+
+### Identifier les ports et les protocoles à autoriser \(ainsi que le sens de communication\)
+
+| Service | Port |
+| :--- | :--- |
+| MySQL | 3306 |
+| SMB | 445 |
+
+### Identifier les rôles de chaque instance
 
 ## Sources
 
