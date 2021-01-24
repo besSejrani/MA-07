@@ -178,6 +178,10 @@ sudo systemctl restart smbd
 ssh -L port:host:port user@host
 ```
 
+![https://docs.bitnami.com/virtual-machine/faq/get-started/access-ssh-tunnel/ ](.gitbook/assets/12.png)
+
+![https://docs.bitnami.com/virtual-machine/faq/get-started/access-ssh-tunnel/](.gitbook/assets/13.png)
+
 ### Identifier les ports et les protocoles à autoriser \(ainsi que le sens de communication\)
 
 | Service | Port | Protocole |
