@@ -175,7 +175,7 @@ sudo systemctl restart smbd
 ### Comment accéder au sous réseau privé
 
 ```text
-ssh -L 22:host:22 debianAdmin@host
+ssh -L port:host:port user@host
 ```
 
 ### Identifier les ports et les protocoles à autoriser \(ainsi que le sens de communication\)
