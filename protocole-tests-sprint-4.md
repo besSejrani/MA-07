@@ -2,7 +2,7 @@
 
 ## Théorie
 
-### Scripting sous Linux
+### Droits sur les fichiers et répertoires
 
 | Permission Unique | Symbole | Niveau |
 | :--- | :---: | :---: |
