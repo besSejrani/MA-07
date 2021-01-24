@@ -150,10 +150,10 @@ sudo systemctl restart smbd
 
 ### Identifier les ports et les protocoles à autoriser \(ainsi que le sens de communication\)
 
-| Service | Port |
-| :--- | :--- |
-| MySQL | 3306 |
-| SMB | 445 |
+| Service | Port | Protocole |
+| :--- | :--- | :--- |
+| MySQL | 3306 | TCP |
+| SMB | 445 | SMB |
 
 ### Identifier les rôles de chaque instance
 
