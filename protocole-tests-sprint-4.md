@@ -4,12 +4,12 @@
 
 ### Scripting sous Linux
 
-| Permission Unique | Symbole | Niveau |
-| :--- | :--- | :--- |
-| Permission lecture | r | 4 |
-| Permission écriture | w | 2 |
-| Permission d'exécution | x | 1 |
-| Pas de permission | - | 0 |
+| Permission Unique |  |  | Symbole | Niveau |
+| :--- | :--- | :--- | :--- | :--- |
+| Permission lecture |  |  | r | 4 |
+| Permission écriture |  |  | w | 2 |
+| Permission d'exécution |  |  | x | 1 |
+| Pas de permission |  |  | - | 0 |
 
 | Permissions combinées | Symbole | Niveau |
 | :--- | :--- | :--- |
