@@ -4,6 +4,27 @@
 
 ### Scripting sous Linux
 
+| Permission Unique | Symbole | Niveau |
+| :--- | :--- | :--- |
+| Permission lecture | r | 4 |
+| Permission écriture | w | 2 |
+| Permission d'exécution | x | 1 |
+| Pas de permission | - | 0 |
+
+| Permissions combinées | Symbole | Niveau |
+| :--- | :--- | :--- |
+| L' utilisateur peut lire, écrire et exécuter | rwx | 7 |
+| L'utilisateur peut uniquement lire et écrire | rw- | 6 |
+| L' utilisateur peut uniquement lire et exécuter | r-x | 5 |
+
+| Permissions multiples | Symbole | Niveau |
+| :--- | :--- | :--- |
+| Le propriétaire et le groupe ont tous les droits | rwxrwx--- | 770 |
+| Toutes les permissions pour tout le monde | rwxrwxrwx | 777 |
+| Uniquement le propriétaire à toute les permissions | rwx------ | 700 |
+
+### Scripting sous Linux
+
 ```text
 #!/bin/bash
 
