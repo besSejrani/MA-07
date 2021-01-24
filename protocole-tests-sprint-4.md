@@ -23,6 +23,10 @@
 | Toutes les permissions pour tout le monde | rwxrwxrwx | 777 |
 | Uniquement le propriétaire à toute les permissions | rwx------ | 700 |
 
+### Utilisateur de service
+
+Un compte de service est souvent utilisé lorsqu'un service tel qu'un serveur web, mail, ou autre souhaite effectuer des actions incluants des droits particuliers. Afin de permettre à ces services de fonctionner, on crée un compte pour chaque service et on lui assigne uniquement les droits dont il en a besoin.
+
 ### Scripting sous Linux
 
 ```text
