@@ -169,6 +169,12 @@ sudo systemctl restart smbd
 
 ## Environnement
 
+### Comment accéder au sous réseau privé
+
+```text
+ssh -L localPort:host:port user@host
+```
+
 ### Identifier les ports et les protocoles à autoriser \(ainsi que le sens de communication\)
 
 | Service | Port | Protocole |
