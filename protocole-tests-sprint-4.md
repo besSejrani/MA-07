@@ -42,22 +42,25 @@ listArguments $@
 ### Compression de fichier sous Linux
 
 ```text
+#Create file
 touch bla.txt
+
+#Create tarball from bla.txt
 tar -cvf new.tar bla.txt
 
 #Show size
 du -sh new.tar
 
-#Compress tar file
+#Compress tarball
 gzip -v new.tar
 
-#Uncompress tar file
+#Uncompress tarball
 gunzip -v new.tar.gz
 
-#Extracting tar file
+#Extract tarball
 tar -xvf new.tar
 
-#Extracting tar file to specific location
+#Extract tarball to specific location
 tar -C ~/Desktop -xvf new.tar
 ```
 
