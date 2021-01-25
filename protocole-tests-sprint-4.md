@@ -91,7 +91,7 @@ sudo mkdir /home/Private
 
 ```text
 # Add permission to the public folder
-sudo chmod 0774 /home/Public
+sudo chmod 0777 /home/Public
 sudo chown -R nobody:nogroup /home/Public
 
 
