@@ -149,7 +149,7 @@ sudo nano /etc/samba/smb.conf
 
 ```text
 #Add members to group
-sudo usermod -aG security richard
+sudo usermod -aG security debianadmin
 ```
 
 ### Création mot de passe Samba
