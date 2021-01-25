@@ -70,22 +70,54 @@ tar -C ~/Desktop -xvf new.tar
 
 ## Partage Réseau
 
-### smb expose une zone publique offre des dossiers et fichiers en lecture seule
+### Installation Samba
 
 ```text
-# Create a folder
+sudo apt update
+sudo apt install samba
+```
+
+### Création de dossiers privé et publique
+
+```text
+# Create public folder
 sudo mkdir /home/Public
 
+# Create private folder
+sudo mkdir /home/Private
+```
 
-# Add public permission to the folder
+### Permissions de dossiers
+
+```text
+# Add permission to the public folder
 sudo chmod 0744 /home/Public
 sudo chown -R nobody:nogroup /home/Public
 
 
+#Create a group
+sudo groupadd security
+
+#Grant permissions to the private group
+sudo chgrp security /home/Private
+sudo chmod -R 0770 /home/Private
+```
+
+### Fichier de configuration
+
+```text
+#Create a backup file
+mv /etc/samba/smb.conf /etc/samba/smb.conf.bak
+
 #Modify samba configuration file
 sudo nano /etc/samba/smb.conf
+```
 
-# Add content
+### Configurations des partages de fichiers
+
+```text
+
+#Global configuration
 [global]
 workgroup = WORKGROUP
 server string = Samba Server %v
@@ -96,7 +128,7 @@ name resolve order = bcast host
 dns proxy = no
 bind interfaces only = yes
 
-# Public access configuration
+#Configuration for Public folder
 [Public]
    path = /home/Public
    writable = yes
@@ -107,42 +139,7 @@ bind interfaces only = yes
    directory mode = 0777
    force user = nobody
 
-      
-# Restart Samba
-sudo systemctl restart smbd
-```
-
-### smb expose une zone privée par utilisateurs qui offre des droits privilégiés
-
-```text
-# Create a folder
-sudo mkdir /home/Private
-
-
-#Create a group
-sudo groupadd security
-
-
-#Grant permissions to the group
-sudo chgrp security /home/Private
-sudo chmod -R 0770 /home/Private
-
-
-#Modify samba configuration file
-sudo nano /etc/samba/smb.conf
-
-#Add content
-[global]
-workgroup = WORKGROUP
-server string = Samba Server %v
-netbios name = ubuntu
-security = user
-map to guest = bad user
-name resolve order = bcast host
-dns proxy = no
-bind interfaces only = yes
-
-# add to the end
+#Configuration for Private folder
 [Private]
    path = /home/Private
    writable = yes
@@ -153,17 +150,27 @@ bind interfaces only = yes
    directory mode = 0777
    valid users = @security
 
-      
+```
+
+### Ajout d'utilisateur au groupe de sécurité
+
+```text
 #Add members to group
 sudo usermod -aG security richard
+```
 
+### Création mot de passe Samba
 
-#Create user password
-sudo smbpasswd -a richard
+```text
+sudo smbpasswd -a debianadmin
+```
 
+### Redémarrer le service
 
-#Restart Samba
+```text
 sudo systemctl restart smbd
+
+sudo systemctl status smbd
 ```
 
 ## Moteur de base de données
