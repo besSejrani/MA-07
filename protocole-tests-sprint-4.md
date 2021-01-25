@@ -91,7 +91,7 @@ sudo mkdir /home/Private
 
 ```text
 # Add permission to the public folder
-sudo chmod 0744 /home/Public
+sudo chmod 0774 /home/Public
 sudo chown -R nobody:nogroup /home/Public
 
 
@@ -116,40 +116,33 @@ sudo nano /etc/samba/smb.conf
 ### Configurations des partages de fichiers
 
 ```text
-
-#Global configuration
 [global]
-workgroup = WORKGROUP
-server string = Samba Server %v
-netbios name = ubuntu
-security = user
-map to guest = bad user
-name resolve order = bcast host
-dns proxy = no
-bind interfaces only = yes
+        workgroup = WORKGROUP
+        server string = Samba Server %v
+        netbios name = ubuntu
+        security = user
+        map to guest = bad user
+        name resolve order = bcast host
+        dns proxy = no
+        bind interfaces only = yes
 
-#Configuration for Public folder
 [Public]
-   path = /home/Public
-   writable = yes
-   guest ok = yes
-   guest only = yes
-   read only = no
-   create mode = 0777
-   directory mode = 0777
-   force user = nobody
-
-#Configuration for Private folder
+        path = /home/bes-sama/Desktop/Public
+        writable = yes
+        guest ok = yes
+        guest only = yes
+        read only = no
+        create mode = 0777
+        directory mode = 0777
 [Private]
-   path = /home/Private
-   writable = yes
-   guest ok = no
-   read only = no
-   browsable = yes
-   create mode = 0777
-   directory mode = 0777
-   valid users = @security
-
+        path = /home/bes-sama/Desktop/Private
+        writable = yes
+        guest ok = no
+        read only = no
+        browsable = yes
+        create mode = 0777
+        directory mode = 0777
+        valid users = @security
 ```
 
 ### Ajout d'utilisateur au groupe de sécurité
