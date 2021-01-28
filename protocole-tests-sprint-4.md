@@ -178,9 +178,18 @@ sudo systemctl status smbd
 
 ### Bonnes pratiques respectées
 
+* [x] Les utilisateurs et les mots de passe par défaut ont été supprimé
+* [x] De nouveau utilisateurs avec de nouveau mots de passe et des nouveau droits ont été créé.
+
 ### Accès depuis le serveur de base de données \(en local\)
 
-### Accès uniquement pour un client \(voir schéma\)
+```text
+mariadb -u admin -p
+```
+
+### Accès uniquement pour un client
+
+![](.gitbook/assets/mariadb.png)
 
 ## Environnement
 
