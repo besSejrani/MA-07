@@ -76,6 +76,33 @@ tar -xvf new.tar
 tar -C ~/Desktop -xvf new.tar
 ```
 
+### Cron
+
+```text
+#!/bin/bash
+
+#$(date +%s) == seconds since epoch until 'now'
+#"(date -I) 0" == todays date in format "YYYY-MM-DD 0" with 0 indicating 0 seconds into the day
+#$(date -d "(date -I 0" +%s)) == seconds from epoch until today at midnight
+#Then we (effectively) echo ( $now - $midnight ) / 60 to bc to convert the results into minutes.
+
+#stack overflow https://stackoverflow.com/questions/37486454/bash-command-to-archive-files-daily-based-on-date-added
+
+#=========================================================================================================================
+
+
+min_since_mid=$(echo $(( $(date +%s) - $(date -d "(date -I) 0" +%s) )) / 60 | bc)
+
+find /home/bes/Desktop/Public -cmin -"${min_since_mid:-0}" -print0 -exec tar czvf /home/bes/Desktop/tarball.tgz {} +
+
+```
+
+```text
+# m h  dom mon dow   command
+
+5 0 * * * /home/bes/Desktop/archive.bash
+```
+
 ## Partage Réseau
 
 ### Installation Samba
