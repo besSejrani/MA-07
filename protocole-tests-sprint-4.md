@@ -88,6 +88,7 @@ tar -C ~/Desktop -xvf new.tar
 
 #stack overflow https://stackoverflow.com/questions/37486454/bash-command-to-archive-files-daily-based-on-date-added
 
+# -cmin n: The file was last changed n minutes ago, depending on how you enter the target time (n).
 #=========================================================================================================================
 
 
