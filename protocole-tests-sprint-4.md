@@ -27,6 +27,14 @@
 
 Un compte de service est souvent utilisé lorsqu'un service tel qu'un serveur web, mail, ou autre souhaite effectuer des actions incluants des droits particuliers. Afin de permettre à ces services de fonctionner, on crée un compte pour chaque service et on lui assigne uniquement les droits dont il en a besoin.
 
+```text
+#Create service account
+sudo useradd -r samba
+
+#List All users
+getent passwd
+```
+
 ### Scripting sous Linux
 
 ```text
@@ -91,16 +99,16 @@ sudo mkdir /home/Private
 
 ```text
 # Add permission to the public folder
-sudo chmod 0777 /home/Public
-sudo chown -R nobody:nogroup /home/Public
+sudo chmod 0777 ~/Desktop/Public
+sudo chown -R nobody:nogroup ~/Desktop/Public
 
 
 #Create a group
 sudo groupadd security
 
 #Grant permissions to the private group
-sudo chgrp security /home/Private
-sudo chmod -R 0770 /home/Private
+sudo chgrp security ~/Desktop/Private
+sudo chmod -R 0770 ~/Desktop/Private
 ```
 
 ### Fichier de configuration
@@ -140,8 +148,8 @@ sudo nano /etc/samba/smb.conf
         guest ok = no
         read only = no
         browsable = yes
-        create mode = 0777
-        directory mode = 0777
+        create mode = 0770
+        directory mode = 0770
         valid users = @security
 ```
 
@@ -201,4 +209,6 @@ ssh -L port:host:port user@host
 | :--- | :--- |
 | Create a Public Samba Share on Ubuntu | [Lien](https://websiteforstudents.com/create-public-samba-share-ubuntu-17-04-17-10/) |
 | Create a Private Samba Share on Ubuntu | [Lien](https://websiteforstudents.com/create-private-samba-share-ubuntu-17-04-17-10/) |
+| Bash command to archive files daily based on date added | [Lien](https://stackoverflow.com/questions/37486454/bash-command-to-archive-files-daily-based-on-date-added) |
+| How to Find a File in Linux Using the Command Line | [Lien](https://www.lifewire.com/uses-of-linux-command-find-2201100) |
 
